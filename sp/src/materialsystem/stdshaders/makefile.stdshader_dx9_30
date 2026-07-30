@@ -1,0 +1,15 @@
+default:  fxctmp9_tmp\pbr_ps30.inc shaders\fxc\pbr_ps30.vcs
+
+fxctmp9_tmp\pbr_ps30.inc shaders\fxc\pbr_ps30.vcs: pbr_ps30.fxc common_hlsl_cpp_consts.h pbr_common_ps2_3_x.h common_ps_fxc.h shader_constant_register_map.h common_pragmas.h common_flashlight_fxc.h common_lightmappedgeneric_fxc.h common_vertexlitgeneric_dx9.h common_fxc.h
+	perl C:\Users\BmP-PC\desktop\hl2mod\SOURCE~1\sp\src\devtools\bin\fxc_prep.pl   -source "C:\Users\BmP-PC\desktop\hl2mod\SOURCE~1\sp\src" pbr_ps30.fxc-----pbr_ps30
+	echo pbr_ps30.fxc>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+	echo pbr_common_ps2_3_x.h>> filestocopy.txt
+	echo common_ps_fxc.h>> filestocopy.txt
+	echo shader_constant_register_map.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_flashlight_fxc.h>> filestocopy.txt
+	echo common_lightmappedgeneric_fxc.h>> filestocopy.txt
+	echo common_vertexlitgeneric_dx9.h>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+

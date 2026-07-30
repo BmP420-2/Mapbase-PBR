@@ -1,0 +1,16 @@
+C:\PROGRA~2\Steam\STEAMA~1\common\SOURCE~1\bin\shadercompile.exe 
+C:\PROGRA~2\Steam\STEAMA~1\common\SOURCE~1\bin\shadercompile_dll.dll 
+C:\PROGRA~2\Steam\STEAMA~1\common\SOURCE~1\bin\tier0.dll 
+C:\PROGRA~2\Steam\STEAMA~1\common\SOURCE~1\bin\vstdlib.dll 
+C:\Users\BmP-PC\desktop\hl2mod\SOURCE~1\sp\src\devtools\bin\d3dx9_33.dll 
+C:\Users\BmP-PC\desktop\hl2mod\SOURCE~1\sp\src\dx10sdk\utilities\dx9_30\dx_proxy.dll 
+common_flashlight_fxc.h
+common_fxc.h
+common_hlsl_cpp_consts.h
+common_lightmappedgeneric_fxc.h
+common_pragmas.h
+common_ps_fxc.h
+common_vertexlitgeneric_dx9.h
+pbr_common_ps2_3_x.h
+pbr_ps30.fxc
+shader_constant_register_map.h

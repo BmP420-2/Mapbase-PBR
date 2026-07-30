@@ -1,0 +1,84 @@
+# =========================================
+# Source SDK 2013 + Mapbase
+# =========================================
+
+# Visual Studio
+.vs/
+.vscode/
+
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ncb
+*.aps
+
+# Generated Visual Studio projects
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Build directories
+**/Debug/
+**/Release/
+**/RelWithDebInfo/
+**/MinSizeRel/
+**/Win32/
+**/x64/
+**/x86/
+**/ipch/
+
+# Compiler intermediates
+*.obj
+*.iobj
+*.idb
+*.ipdb
+*.ilk
+*.pch
+*.tlog
+*.lastbuildstate
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.exp
+*.lib
+*.map
+*.recipe
+*.FileListAbsolute.txt
+
+# Shader compiler
+*.tmp
+*.vcs
+
+# Generated map compile files
+*.lin
+*.prt
+
+# Logs / backups
+*.log
+*.bak
+*.old
+*.orig
+
+# Build support
+*.sentinel
+*.vpc_crc
+
+# Mod-generated files
+config.cfg
+steam_autocloud.vdf
+
+# Save games
+**/SAVE/
+**/save/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
