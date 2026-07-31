@@ -82,3 +82,7 @@ steam_autocloud.vdf
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+
+# Keep mod_episodic bin
+!sp/game/mod_episodic/bin/
+!sp/game/mod_episodic/bin/**
