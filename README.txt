@@ -6,5 +6,3 @@
 4. Open the generated `.sln`.
 5. Build `Release Win32`.
 6. Run `buildallprojects.bat` if needed.
-
-NOTE: the src code is still broken rn and .gitignore is unorganized
